@@ -30,7 +30,7 @@ body {
 }
 
 .login .box-user .img-user {
-    background-image: url(images/user01.png);
+    background-image: url(imagens/user01.png);
     background-size: cover;
     border-radius: 50%;
     height: 90px;
