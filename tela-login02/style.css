@@ -49,6 +49,8 @@ body {
     display: block;
     font-family: var(--font-padrao);
     font-size: 0.9em;
+    font-weight: bold;
+    color: var(--cor-01);
     margin: 12px 0px;
 }
 
