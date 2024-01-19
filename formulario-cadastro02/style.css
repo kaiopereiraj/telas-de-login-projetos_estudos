@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+body {
+    height: 100vh;
+    background-color: #aaa;
+    background-image: url('images/bck-2000.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid red;
+    width: 800px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .form-container {
+    border: 1px solid red;
+    height: 80vh;
+    width: 100%;
+    padding: 0px;
+}
+
+
+.container .form-container form h1 {
+    font-size: 2.3em;
+    margin: 4% 0 2% 10%;
+}
+
+.container .form-container form p {
+    font-size: 0.8em;
+    margin: 0 0 2% 10%;
+}
+
+.container .form-container form .input-box label {
+    display: inline-block;
+    font-weight: bold;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.container .form-container form .input-box input {
+    display: inline-block;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 18px;
+    width: 51%;
+}
+
+.container .form-container form .input-box input.fn {
+ width: 25%;
+}
+
+.container .form-container form .btn button {
+    display: block;
+    width: 30%;
+    margin: 3% 0 0 10%;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    background-color: #752e75;
+    transition: .6s;
+}
+
+.container .form-container form .btn button:hover {
+    background-color: #800080;
+    width: 34%;
+    padding: 8px;
+}
+
+.container .form-container form .btn button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
