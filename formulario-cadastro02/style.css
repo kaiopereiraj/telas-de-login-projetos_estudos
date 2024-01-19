@@ -8,6 +8,8 @@
     font-size: 1em;
 }
 
+ /* Preciso fazer algumas correçoes  */
+
 body {
     height: 100vh;
     background-color: #aaa;
@@ -20,19 +22,20 @@ body {
 }
 
 .container {
-    border: 1px solid red;
     width: 800px;
-    min-height: 80vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container .form-container {
-    border: 1px solid red;
     height: 80vh;
     width: 100%;
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
