@@ -114,7 +114,8 @@ form button:hover {
     background-color: #f5f5f5;
     text-decoration: none;
     color: #101026;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
     transition: all .7s;
 }
 
