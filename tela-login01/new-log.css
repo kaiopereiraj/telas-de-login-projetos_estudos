@@ -49,17 +49,6 @@ body {
 
 .login .box-user input {
     display: block;
-    background-color: #00000011;
-    width: 90%;
-    margin: 10px auto;
-    padding: 10px;
-    outline: none;
-    border-bottom: 1px solid #fff;
-    border-radius: 5px;
-}
-
-.login .box-user input {
-    display: block;
     background-color: #00000042;
     color: #fff;
     width: 90%;
@@ -110,12 +99,13 @@ body {
     color: #fff;
     margin-top: 22px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: .6s;
 }
 
 .login .btn:hover {
     background-color: rgb(83, 43, 163);
+    border-radius: 20px;
 }
 
 
