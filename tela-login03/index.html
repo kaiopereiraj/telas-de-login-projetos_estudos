@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando media query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/media-query.css">
+    <!-- FIZ USANDO A TELA DE LOGIN FEITA NOS EXERCICIOS DE MEDIA QUERY COMO EXEMPLO -->
+</head>
+<body>
+    <main class="container">
+        <section class="login">
+            <div class="imagem"></div>
+            <div class="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form id="form-1" action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <input type="email" name="email" id="iemail" required minlength="6" maxlength="30" autocomplete="email" placeholder="Digite seu nome">
+                        <label for="iemail">Login</label>
+                        <span class="material-symbols-outlined icon" >person</span>
+                    </div>
+                    <div class="campo">
+                        <input type="password" name="senha" id="isenha" required minlength="6" maxlength="20" autocomplete="current-password" placeholder="Digite seu senha">
+                        <label for="isenha">Senha</label>
+                        <span class="material-symbols-outlined icon">vpn_key</span>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-1">
+                    <a href="esqueci.html" class="btn-2">
+                        Esqueci minha senha
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
