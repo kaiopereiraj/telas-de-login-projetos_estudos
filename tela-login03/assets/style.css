@@ -128,3 +128,7 @@
     font-size: 0.8em;
     text-decoration: none;
 }
+
+@media screen and (orientation: landscape) {
+        /* fazer configurações para modo paisagem */
+}
